@@ -10,7 +10,7 @@ while total_price < 1000000:
 
     #First function for entering data from operator
     product = get_data()
-    total_price += product['price']*product['quantity']
+    total_price += product['price'] * product['quantity']
     if total_price < 1000000:
 
         #creating the product_list
